@@ -12,6 +12,7 @@
 		0F2A44F92143BE8A00E1C949 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F2A44F72143BE8A00E1C949 /* LaunchScreen.storyboard */; };
 		0F2A45042143BE8A00E1C949 /* VocabularyTrainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2A45032143BE8A00E1C949 /* VocabularyTrainerTests.swift */; };
 		0F2A450F2143BE8A00E1C949 /* VocabularyTrainerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2A450E2143BE8A00E1C949 /* VocabularyTrainerUITests.swift */; };
+		0F2A45212143C5D600E1C949 /* MyFirstLesson.csv in Resources */ = {isa = PBXBuildFile; fileRef = 0F2A45202143C5D600E1C949 /* MyFirstLesson.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		0F2A450A2143BE8A00E1C949 /* VocabularyTrainerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VocabularyTrainerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F2A450E2143BE8A00E1C949 /* VocabularyTrainerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyTrainerUITests.swift; sourceTree = "<group>"; };
 		0F2A45102143BE8A00E1C949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F2A45202143C5D600E1C949 /* MyFirstLesson.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MyFirstLesson.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 		0F2A451D2143BF1F00E1C949 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				0F2A451F2143C5D600E1C949 /* Lessons */,
 				0F2A44F52143BE8A00E1C949 /* Assets.xcassets */,
 				0F2A44F72143BE8A00E1C949 /* LaunchScreen.storyboard */,
 				0F2A44FA2143BE8A00E1C949 /* Info.plist */,
@@ -141,6 +144,14 @@
 				0F2A44EE2143BE8800E1C949 /* AppDelegate.swift */,
 			);
 			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		0F2A451F2143C5D600E1C949 /* Lessons */ = {
+			isa = PBXGroup;
+			children = (
+				0F2A45202143C5D600E1C949 /* MyFirstLesson.csv */,
+			);
+			path = Lessons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +260,7 @@
 			files = (
 				0F2A44F92143BE8A00E1C949 /* LaunchScreen.storyboard in Resources */,
 				0F2A44F62143BE8A00E1C949 /* Assets.xcassets in Resources */,
+				0F2A45212143C5D600E1C949 /* MyFirstLesson.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
