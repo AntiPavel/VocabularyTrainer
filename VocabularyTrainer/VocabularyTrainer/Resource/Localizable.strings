@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  VocabularyTrainer
+
+  Created by Antonov, Pavel on 9/10/18.
+  Copyright © 2018 Pavel Antonov. All rights reserved.
+*/
+
+"title_lesson" = "Lesson: %@";
+"continue_action" = "Continue";
+"next_action" = "Next";
+"restart_action" = "Restart";
+"close_action" = "Close";
+"correct_answer" = "Correct: %@";
+"correct_count" = "Correct: %@";
+"wrong_count" = "Wrong: %@";
+"lesson_end" = "You successfully finished the lesson!";
+"lesson_done" = "Congratulation, you just finished the lesson successfully!";
+"error_title" = "Error";
+"ok_title" = "OK";
+"open_lesson_error" = "Lesson hasn't been found!";
+"answer_placeholder" = "type your answer";
